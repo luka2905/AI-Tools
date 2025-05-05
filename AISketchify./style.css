@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin: 0; /* Verhindert unnötige Ränder */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Vollständige Höhe der Seite */
+}
+
+canvas {
+  margin-top: 20px;
+  border: 2px solid #fff;
+  max-width: 90%; /* Passt die Breite des Canvas an den Bildschirm an */
+  height: auto; /* Höhe wird automatisch basierend auf der Breite skaliert */
+}
+
+input[type="file"] {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #444;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type="file"]:hover {
+  background-color: #555;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #444;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
